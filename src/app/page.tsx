@@ -15,7 +15,7 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
+  // { name: "Marketplace", href: "#" },
   { name: "Company", href: "#" },
 ];
 const features = [
@@ -49,11 +49,11 @@ const tiers = [
     name: "Freelancer",
     id: "tier-freelancer",
     href: "#",
-    priceMonthly: "$24",
+    priceMonthly: "$0",
     description: "The essentials to provide your best work for clients.",
     features: [
-      "5 products",
-      "Up to 1,000 subscribers",
+      "1 AI CaC Engineer",
+      "Up to 3 Web Services",
       "Basic analytics",
       "48-hour support response time",
     ],
@@ -63,11 +63,11 @@ const tiers = [
     name: "Startup",
     id: "tier-startup",
     href: "#",
-    priceMonthly: "$32",
+    priceMonthly: "$300",
     description: "A plan that scales with your rapidly growing business.",
     features: [
-      "25 products",
-      "Up to 10,000 subscribers",
+      "25 AI CaC Engineer",
+      "Up to 100 Web Services",
       "Advanced analytics",
       "24-hour support response time",
       "Marketing automations",
@@ -78,11 +78,11 @@ const tiers = [
     name: "Enterprise",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "$48",
+    priceMonthly: "$10,000+",
     description: "Dedicated support and infrastructure for your company.",
     features: [
-      "Unlimited products",
-      "Unlimited subscribers",
+      "Unlimited AI CaC Engineer",
+      "Unlimited Web Services",
       "Advanced analytics",
       "1-hour, dedicated support response time",
       "Marketing automations",
@@ -539,7 +539,7 @@ export default function Example() {
         </div>
 
         {/* FAQs */}
-        <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
+        {/* <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
             Frequently asked questions
           </h2>
@@ -560,7 +560,7 @@ export default function Example() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
 
         {/* CTA section */}
         <div className="relative -z-10 mt-32 px-6 lg:px-8">
@@ -580,7 +580,7 @@ export default function Example() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Boost your productivity.
               <br />
-              Start using our app today.
+              Start using our CaC Engineers today.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
               Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
