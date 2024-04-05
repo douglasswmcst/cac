@@ -54,6 +54,8 @@ import {
   TooltipTrigger,
   TooltipProvider,
 } from "@/components/ui/tooltip";
+import { JSX, ClassAttributes, HTMLAttributes } from "react";
+
 
 export default function Dashboard() {
   return (
@@ -699,7 +701,7 @@ export default function Dashboard() {
   );
 }
 
-function LineChart(props) {
+function LineChart(props: JSX.IntrinsicAttributes & ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement>) {
   return (
     <div {...props}>
       <ResponsiveLine
@@ -772,7 +774,7 @@ function LineChart(props) {
   );
 }
 
-function StackedbarChart(props) {
+function StackedbarChart(props: JSX.IntrinsicAttributes & ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement>) {
   return (
     <div {...props}>
       <ResponsiveBar
